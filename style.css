@@ -52,6 +52,8 @@ body {
     width: 60%;
     text-align: left;
     line-height: 1.6;
+    font-family: 'Imprima', sans-serif;
+    font-size: 1.3em;
   }
 
   .hero p {
@@ -59,8 +61,8 @@ body {
   }
   
   .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     border-radius: 10px;
     margin-left: 2em;
@@ -69,7 +71,7 @@ body {
   .controller-img {
     display: block;
     margin: 3em auto 1em auto;
-    width: 350px;
+    width: 420px;
   }
   
   .goal, .about-me, .skills, #projects {
