@@ -66,8 +66,8 @@ body {
     height: 140px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 1em;
-    margin-right: 15px;
+    margin-left: 0.5em;
+    margin-right: 0;
   }
   
   .controller-img {
@@ -118,6 +118,9 @@ body {
     max-width: 100%;
     border-radius: 8px;
     border: 2px solid #0A93B5;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
   }
   
   .blob-animations aside {
@@ -128,9 +131,9 @@ body {
   }
   
   .project-img {
-    position: absolute;
-    right: 20px;
-    top: 15px;
+    position: relative;
+    float: right;
+    margin: 1em 0 1em 1em;
     width: 120px;
     border-radius: 5px;
   }
