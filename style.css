@@ -89,9 +89,10 @@ body {
 
   .blob-animations {
     max-width: 800px;
-    margin: 2em auto;
+    margin: 0 auto;
     padding: 2em;
     text-align: left;
+    overflow: hidden;
   }
 
   .blob-animations aside {
@@ -100,13 +101,15 @@ body {
     font-size: 1em;
     color: #ccc;
     text-align: center; 
+    display: block;
+    width: 100%;
 }
   
   .animation-flex {
     display: flex;
     justify-content: flex-start;
     gap: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
   }
   
   .animation-column {
@@ -135,11 +138,10 @@ body {
   }
   
   .project-img {
-    float: none;
-    margin: 1em 0 1em auto;
+    float: right;
+    margin: 0 0 1em 2em;
     width: 140px;
     border-radius: 5px;
-    display: block;
   }
   
   footer {
