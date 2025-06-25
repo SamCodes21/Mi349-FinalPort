@@ -35,31 +35,32 @@ body {
   main {
     padding-bottom: 3em;
   }
+
+  .hero-wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+  }
   
   .hero {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
-    max-width: 1000px;
-    margin: auto;
   }
   
   .hero .intro {
-    max-width: 60%;
+    width: 60%;
     text-align: left;
-    padding-right: 1em;
+    line-height: 1.6;
   }
 
   .hero p {
     margin: 0;
-    line-height: 1.6;
   }
   
   .profile-pic {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     margin-left: 2em;
@@ -67,8 +68,8 @@ body {
   
   .controller-img {
     display: block;
-    margin: 2em auto;
-    width: 300px;
+    margin: 3em auto 1em auto;
+    width: 350px;
   }
   
   .goal, .about-me, .skills, #projects {
@@ -88,8 +89,8 @@ body {
   
   .project-img {
     position: absolute;
-    right: 0;
-    top: 50px;
+    right: 20px;
+    top: 15px;
     width: 120px;
     border-radius: 5px;
   }
