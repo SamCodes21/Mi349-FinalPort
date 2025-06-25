@@ -93,16 +93,25 @@ body {
     padding: 2em;
     text-align: left;
   }
+
+  .blob-animations aside {
+    margin-top: 1.5em;
+    font-style: italic;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center; 
+}
   
   .animation-flex {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 2em;
     margin-top: 2em;
   }
   
   .animation-column {
     flex: 0 0 auto;
+    text-align: center;
   }
   
   .animation-column h3 {
