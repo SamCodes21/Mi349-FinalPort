@@ -96,27 +96,25 @@ body {
   
   .animation-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 2em;
-    flex-wrap: wrap;
+    margin-top: 2em;
   }
   
   .animation-column {
-    flex: 1;
+    flex: 0 0 auto;
   }
   
   .animation-column h3 {
     font-size: 1.2em;
+    text-align: left;
     margin-bottom: 0.5em;
   }
   
   .animation-column img {
-    max-width: 100%;
     border-radius: 8px;
     border: 2px solid #0A93B5;
     width: 60%;
-    display: block;
-    margin: 0 auto;
   }
   
   .blob-animations aside {
@@ -124,6 +122,7 @@ body {
     font-style: italic;
     font-size: 1em;
     color: #ccc;
+    text-align: center;
   }
   
   .project-img {
@@ -194,4 +193,18 @@ body {
   
   .contact-form button:hover {
     background-color: #077893;
+  }
+
+  .tech-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .tech-logos img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
   }
